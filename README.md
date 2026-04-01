@@ -1,27 +1,23 @@
 # QC-Data-Analysis
-Owner avatar
-QC-Data-Analysis
-Public
-Start coding with Codespaces
-Add a README file and start coding in a secure, configurable, and dedicated development environment.
+# 🧪 Lab Quality Control Automator (Python)
 
-Add collaborators to this repository
-Search for people using their GitHub username or email address.
+### 🔬 Project Overview
+Automated tool designed to streamline laboratory data analysis. This script replaces manual Excel verification by automatically detecting anomalies in production batches (e.g., pH levels, purity) and generating visual quality reports.
 
-Quick setup — if you’ve done this kind of thing before
-or	
-https://github.com/jakubsteckiewicz2001-lang/QC-Data-Analysis.git
-Get started by creating a new file or uploading an existing file. We recommend every repository include a README, LICENSE, and .gitignore.
+### 🛠 Key Features
+* **Automated Anomaly Detection:** Instantly flags batches outside of safety thresholds (e.g., pH 6.5 - 6.7).
+* **Data Visualization:** Generates professional scatter plots with clearly marked "Alert" points for failed batches.
+* **Efficient Reporting:** Eliminates human error in manual data processing, saving time in busy lab environments (e.g., Food Tech or Biotech industry).
 
-…or create a new repository on the command line
-echo "# QC-Data-Analysis" >> README.md
-git init
-git add README.md
-git commit -m "first commit"
-git branch -M main
-git remote add origin https://github.com/jakubsteckiewicz2001-lang/QC-Data-Analysis.git
-git push -u origin main
-…or push an existing repository from the command line
-git remote add origin https://github.com/jakubsteckiewicz2001-lang/QC-Data-Analysis.git
-git branch -M main
-git push -u origin main
+### 💻 Technologies Used
+* **Python**
+* **Pandas** (Data manipulation)
+* **Matplotlib** (Data visualization)
+
+### 📊 Sample Output
+This script identifies failed batches (like B03, B04, B07) and produces the following visual report:
+
+![Quality Report](raport_koncowy.png)
+
+---
+*Created by a Biotechnology Master's student passionate about Lab Automation and Bio-IT.*
