@@ -17,7 +17,7 @@ Automated tool designed to streamline laboratory data analysis. This script repl
 ### 📊 Sample Output
 This script identifies failed batches (like B03, B04, B07) and produces the following visual report:
 
-![Quality Report](raport_koncowy.png)
+![Quality Report](Figure_1.png)
 
 ---
 *Created by a Biotechnology Master's student passionate about Lab Automation and Bio-IT.*
